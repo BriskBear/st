@@ -18,6 +18,7 @@ features that make it literally the best terminal emulator ever:
 + **zoom/change font size**: same bindings as above, but holding down shift as
   well. `alt-home` returns to default
 + **copy text** with `alt-c`, **paste** is `alt-v` or `shift-insert`
++ **step transparency**: `alt-s` makes more *transparent* and `alt-a` makes more *opaque*.
 
 ## Pretty stuff
 
