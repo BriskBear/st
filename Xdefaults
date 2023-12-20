@@ -3,33 +3,33 @@ st.alpha: 0.92
 st.alphaOffset: 0.3
 
 !! Set a default font and font size as below:
-st.font: Terminus-24;
+st.faceName: Terminus-18;
 
-! st.termname: st-256color
-! st.borderpx: 2
+st.termname: st-256color
+st.borderpx: 2
 
 !! Set the background, foreground and cursor colors as below:
 
-!! gruvbox:
-*.color0: #1d2021
-*.color1: #cc241d
-*.color2: #98971a
-*.color3: #d79921
-*.color4: #458588
-*.color5: #b16286
-*.color6: #689d6a
-*.color7: #a89984
-*.color8: #928374
-*.color9: #fb4934
-*.color10: #b8bb26
-*.color11: #fabd2f
-*.color12: #83a598
-*.color13: #d3869b
-*.color14: #8ec07c
-*.color15: #ebdbb2
-*.background: #282828
-*.foreground: white
-*.cursorColor: white
+/* !! gruvbox: */
+/* *.color0: #1d2021  */
+/* *.color1: #cc241d  */
+/* *.color2: #98971a  */
+/* *.color3: #d79921  */
+/* *.color4: #458588  */
+/* *.color5: #b16286  */
+/* *.color6: #689d6a  */
+/* *.color7: #a89984  */
+/* *.color8: #928374  */
+/* *.color9: #fb4934  */
+/* *.color10: #b8bb26  */
+/* *.color11: #fabd2f  */
+/* *.color12: #83a598  */
+/* *.color13: #d3869b  */
+/* *.color14: #8ec07c  */
+/* *.color15: #ebdbb2  */
+/* *.background: #282828 */
+/* *.foreground: white  */
+/* *.cursorColor: white  */
 
 /* /1* !! gruvbox light: *1/ */
 /* *.color0: #fbf1c7 */
@@ -109,20 +109,21 @@ st.font: Terminus-24;
 /* *.color14:	#93a1a1 */
 /* *.color15:	#fdf6e3 */
 
-/* !! xterm */
-/* *.color0:   #000000 */
-/* *.color1:   #cd0000 */
-/* *.color2:   #00cd00 */
-/* *.color3:   #cdcd00 */
-/* *.color4:   #0000cd */
-/* *.color5:   #cd00cd */
-/* *.color6:   #00cdcd */
-/* *.color7:   #e5e5e5 */
-/* *.color8:   #4d4d4d */
-/* *.color9:   #ff0000 */
-/* *.color10:  #00ff00 */
-/* *.color11:  #ffff00 */
-/* *.color12:  #0000ff */
-/* *.color13:  #ff00ff */
-/* *.color14:  #00ffff */
-/* *.color15:  #aabac8 */
+!! xterm
+*.cursorColor: #026228
+*.color0:      #000000
+*.color1:      #cd5500
+*.color2:      #00cd00
+*.color3:      #cdcd00
+*.color4:      #00ad6d
+*.color5:      #cd00cd
+*.color6:      #00cdcd
+*.color7:      #e5e5e5
+*.color8:      #4d4d4d
+*.color9:      #ff0000
+*.color10:     #00ff00
+*.color11:     #ffff00
+*.color12:     #adadef
+*.color13:     #ff00ff
+*.color14:     #00ffff
+*.color15:     #aabac8
